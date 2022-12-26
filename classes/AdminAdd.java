@@ -78,10 +78,10 @@ public class AdminAdd implements ActionListener, MouseListener, IAdminAdd
 		
 		
 		label1 = new JLabel();
-	    label1.setText("Add User");
-	    label1.setBounds(170, 70, 250, 60);
-	    label1.setFont(new Font("Segoe UI Black", Font.BOLD, 25));
-	    frame.add(label1);
+		label1.setText("Add User");
+	    	label1.setBounds(170, 70, 250, 60);
+		label1.setFont(new Font("Segoe UI Black", Font.BOLD, 25));
+		frame.add(label1);
 		
 		
 		userName = new JLabel("Username:* ");
@@ -122,7 +122,7 @@ public class AdminAdd implements ActionListener, MouseListener, IAdminAdd
 		frame.add(pfUPass);
 		
 		
-	    tfemail = new JTextField();
+	    	tfemail = new JTextField();
 		tfemail.setBounds(210, 260, 140, 23);
 		tfemail.setBorder(BorderFactory.createLineBorder(Color.GREEN, 1));
 		tfemail.setToolTipText("Your Email Address?");
